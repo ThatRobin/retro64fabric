@@ -1,0 +1,23 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.dylanpdx.retro64.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "LivingEntityMixin",
+        "MixinPlayerTravel",
+        "PlayerListMixin",
+        "ServerPlayerMixin"
+    ],
+    "client": [
+        "ControllableCannotFindControllableCannotFindControllableToastMixin",
+        "ControllableCannotFindControllableMixin",
+        "GuiMixin",
+        "LevelRendererMixin",
+        "MinecraftMixin",
+        "PlayerRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+  }
+}

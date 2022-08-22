@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "retro64",
+  "version": "${version}",
+  "name": "Retro64 Fabric",
+  "description": "This mod lets you relive your favorite 1996 platformer game in a modern Minecraft world.",
+  "authors": [
+    "dylanpdx",
+    "ThatRobin3001"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/retro64/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dylanpdx.retro64.Retro64"
+    ],
+    "client": [
+      "com.dylanpdx.retro64.Retro64Client"
+    ],
+    "cardinal-components-entity": [
+      "com.dylanpdx.retro64.capabilities.smc64Capability"
+    ]
+  },
+  "accessWidener": "retro64.accesswidener",
+  "mixins": [
+    "retro64.mixins.json"
+  ],
+  "custom": {
+    "cardinal-components": [
+      "retro64:mario"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.5",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}

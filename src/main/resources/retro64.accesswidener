@@ -1,0 +1,10 @@
+accessWidener   v1  named
+
+accessible    method    net/minecraft/world/entity/Entity    tryCheckInsideBlocks    ()V
+accessible    class    net/minecraft/client/renderer/RenderType$CompositeRenderType
+accessible    class    net/minecraft/client/gui/Gui$HeartType
+accessible    method    net/minecraft/client/renderer/RenderType    create    (Ljava/lang/String;Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;IZZLnet/minecraft/client/renderer/RenderType$CompositeState;)Lnet/minecraft/client/renderer/RenderType$CompositeRenderType;
+accessible    field    net/minecraft/client/resources/SkinManager    skinsDirectory    Ljava/io/File;
+accessible    field    net/minecraft/world/entity/Entity    dimensions    Lnet/minecraft/world/entity/EntityDimensions;
+accessible    field    net/minecraft/world/entity/Entity    eyeHeight    F
+accessible    method    net/minecraft/client/renderer/entity/player/PlayerRenderer    renderNameTag    (Lnet/minecraft/client/player/AbstractClientPlayer;Lnet/minecraft/network/chat/Component;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V
